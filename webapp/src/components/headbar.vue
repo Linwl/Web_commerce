@@ -1,3 +1,5 @@
+
+
 <template>
 <div>
   <el-carousel :interval="4000" type="card" height="200px">
