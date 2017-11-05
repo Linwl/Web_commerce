@@ -3,7 +3,6 @@
     <topbar></topbar>
     <div >
       <div>
-        <headbar></headbar>
         <main>
           <router-view></router-view>
         </main>
@@ -15,23 +14,16 @@
 
 <script>
 import topbar from "../components/topbar.vue"
-import headbar from "../components/headbar.vue"
 import footbar from "../components/footbar.vue"
 export default {
-  name: "index",
+  name: "about",
   components: {
     topbar,
-    footbar,
-    headbar
+    footbar
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-.viewFramework {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
 </style>

@@ -4,6 +4,7 @@ import index from '@/pages/index'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import axios from 'axios'
+import about from '@/pages/about'
 
 Vue.prototype.$http = axios
 Vue.use(ElementUI)
@@ -42,6 +43,11 @@ export default new Router({
       path: '/',
       name: 'index',
       component: index
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: about
     }
   ]
 })
