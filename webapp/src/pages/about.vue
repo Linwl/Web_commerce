@@ -5,6 +5,7 @@
       <div>
         <main>
           <router-view></router-view>
+          <profile></profile>
         </main>
         <footbar></footbar>
       </div>
@@ -15,11 +16,13 @@
 <script>
 import topbar from "../components/topbar.vue"
 import footbar from "../components/footbar.vue"
+import profile from "../components/profile.vue"
 export default {
   name: "about",
   components: {
     topbar,
-    footbar
+    footbar,
+    profile
   }
 };
 </script>
