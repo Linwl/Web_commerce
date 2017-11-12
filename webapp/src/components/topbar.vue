@@ -11,7 +11,7 @@
         <router-link to ='/about'>公司简介</router-link>
       </el-menu-item>
       <el-menu-item index="3">
-        <router-link to ='#'>产品展示</router-link>
+        <router-link to ='/show'>产品展示</router-link>
       </el-menu-item>
       <el-menu-item index="4">
         <router-link to ='#'>中颖</router-link>

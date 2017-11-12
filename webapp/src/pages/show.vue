@@ -4,7 +4,7 @@
     <div >
       <div>
         <main>
-          <profile></profile>
+            55
         </main>
         <footbar></footbar>
       </div>
